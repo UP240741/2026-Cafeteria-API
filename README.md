@@ -1,19 +1,27 @@
-# Sistema de Gestión y Control para Cafetería (U3EP1)
+#  Proyecto Final - Sistema de Gestión de Cafetería (API REST NestJS & MongoDB)
 
-## Descripción del Proyecto
-Sistema backend desarrollado con NestJS y base de datos NoSQL en MongoDB, diseñado para administrar eficientemente las categorías, productos y órdenes de venta de una cafetería. Incluye integración con consultas avanzadas mediante agregaciones relacionales.
+**Universidad Politécnica de Aguascalientes**  
+**Materia:** Bases de Datos Avanzadas  
+**Profesor:** Juan Carlos Herrera Hernández  
 
-## Tecnologías Utilizadas
-- **Backend:** NestJS (TypeScript)
-- **Base de Datos:** MongoDB (Mongoose)
-- **Control de Versiones:** Git / GitHub
+##  Integrantes del Equipo
+* Alondra Llizeth Ramirez Martinez (UP240741)
 
-## Comandos de Instalación y Ejecución
-1. Clonar el repositorio:
-   ```bash
-   git clone [https://github.com/UP240741/2026-Cafeteria-API.git](https://github.com/UP240741/2026-Cafeteria-API.git)
+---
 
-   npm install
-   npm run start:dev
+##  Descripción del Proyecto
+API RESTful desarrollada con **NestJS** y **MongoDB** para administrar eficientemente las categorías, productos y órdenes de venta de una cafetería, permitiendo consultas avanzadas.
 
-   
+---
+
+##  1. Backend (NestJS) (Librerías y comandos npm install, npm run start:dev)
+
+###  Librerías Empleadas
+* `@nestjs/core` & `@nestjs/common` - Núcleo del framework NestJS.
+* `@nestjs/mongoose` & `mongoose` - ODM para la conexión y modelado con MongoDB.
+* `class-validator` & `class-transformer` - Validación de DTOs y datos de entrada.
+
+###  Comandos de Instalación y Ejecución
+* **Instalar dependencias:**
+  ```bash
+  npm install
